@@ -1,4 +1,4 @@
-data = {
+App = {
   users: [
     {id: 1, name: 'Weezy'}
   ],
@@ -8,5 +8,3 @@ data = {
     {title: 'My doggy', body: 'my dog is better than yours', createdBy: 1}
   ]
 }
-
-module.exports = data

@@ -11,7 +11,7 @@ const getUserById = (id, cb) => {
 const getPostsForUser = (userId, cb) => {
   // simulate API call
   setTimeout(() => {
-    const posts = data.posts.filter(post => post.createdBy === userId)
+    const posts = App.posts.filter(post => post.createdBy === userId)
     cb(posts)
   }, 150)
 }

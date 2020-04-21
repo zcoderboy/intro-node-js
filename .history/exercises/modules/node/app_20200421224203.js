@@ -26,6 +26,5 @@ const showUserProfile = (userId, cb) => {
 }
 
 module.exports = {
-  showPostsForCurrentUser,
-  showUserProfile
+  
 }

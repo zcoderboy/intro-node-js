@@ -1,4 +1,4 @@
-data = {
+App = {
   users: [
     {id: 1, name: 'Weezy'}
   ],
@@ -9,4 +9,4 @@ data = {
   ]
 }
 
-module.exports = data
+module.exports
